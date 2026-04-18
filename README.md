@@ -19,17 +19,6 @@ Pocket-Agent is a fine-tuned language model (≤2B parameters) designed to perfo
 
 ---
 
-## Links
-
-| Resource | Link |
-|---|---|
-| **Colab Notebook** | `[INSERT COLAB LINK HERE]` |
-| **Gradio Demo** | `[INSERT GRADIO LINK HERE]` |
-| **Quantized Model** | Included in repo under `./quantized_model/` |
-| **LoRA Adapter** | Included in repo under `./lora_adapter/` |
-
----
-
 ## Tool Schema
 
 The model emits JSON wrapped in `<tool_call>...</tool_call>` tags for tool requests, or plain text for refusals.
